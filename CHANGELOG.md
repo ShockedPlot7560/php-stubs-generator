@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0] - 2023-09-13
+### Fixed
+- Change minimum PHP version to 8.2.
+
 ## [0.5] - 2018-04-13
 ### Added
 - `--nullify-globals` option: converts all global variable assignments to `null`.

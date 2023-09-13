@@ -1,5 +1,5 @@
 {
-    "name": "php-stubs/generator",
+    "name": "shockedplot7560/generator",
     "description": "Generate stubs from any PHP code for IDE completion and static analysis.",
     "type": "library",
     "license": "MIT",
@@ -7,11 +7,14 @@
         "IDE",
         "static analysis"
     ],
-    "homepage": "https://github.com/php-stubs/generator",
+    "homepage": "https://github.com/ShockedPlot7560/generator",
     "authors": [
         {
             "name": "Giaco Corsiglia",
             "email": "GiacoCorsiglia@gmail.com"
+        }, {
+            "name": "ShockedPlot7560",
+            "email": "no-reply@tchallon.fr"
         }
     ],
     "autoload": {
@@ -23,15 +26,15 @@
         "bin/generate-stubs"
     ],
     "require": {
-        "php": "^7.3 || ^8.0",
-        "nikic/php-parser": "^4.10",
-        "symfony/console": "^5.1 || ^6.0",
-        "symfony/filesystem": "^5.0 || ^6.0",
-        "symfony/finder": "^5.0 || ^6.0"
+        "php": "^8.2",
+        "nikic/php-parser": "^4.17",
+        "symfony/console": "^6.3",
+        "symfony/filesystem": "^6.3",
+        "symfony/finder": "^6.3"
     },
     "require-dev": {
-        "vimeo/psalm": "^4.1",
-        "phpunit/phpunit": "^9.4",
-        "friendsofphp/php-cs-fixer": "^2.16 || ^3.12"
+        "vimeo/psalm": "^5.15",
+        "phpunit/phpunit": "^10.3",
+        "friendsofphp/php-cs-fixer": "^v3.26"
     }
 }
